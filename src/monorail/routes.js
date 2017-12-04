@@ -44,5 +44,4 @@ const main = () => {
     </Router>
   ), container);
 };
-
 onReady(main);
