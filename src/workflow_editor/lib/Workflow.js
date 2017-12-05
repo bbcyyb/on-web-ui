@@ -1,7 +1,6 @@
 // Copyright 2015, EMC, Inc.
 
 import React from 'react';
-
 import cloneDeep from 'lodash/cloneDeep';
 import merge from 'lodash/merge';
 
