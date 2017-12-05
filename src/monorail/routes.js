@@ -25,7 +25,6 @@ const main = () => {
   container.className = 'react-container';
   document.body.appendChild(container);
   global.monorailContainer = container;
-
   render((
     <Router history={hashHistory}>
       <Route name="RackHD" path="/" component={MonoRailApp}>
