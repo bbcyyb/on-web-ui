@@ -44,7 +44,9 @@ export default class Workflow {
 
   cleanTasks(customTaskList) {
     let nullTasks = (t) => {
-      if (!t || Object.keys(t).length === 0) return false;
+      if (!t || Object.keys(t).length === 0) {
+          return false;
+      }
       if (t.waitOn && Object.keys(t.waitOn).length === 0) {
         delete t.waitOn;
       }
